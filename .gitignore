@@ -1,0 +1,38 @@
+# 构建目录
+build/
+cmake-build-*/
+_build/
+
+# 可执行文件（Windows）
+*.exe
+*.out
+
+# CMake 自动生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.sln
+*.vcxproj*
+*.sublime-project
+
+# Qt 编译生成的文件
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# 临时文件
+*.tmp
+*.log
+*.swp
+*~
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# IDE 和编辑器的配置文件（可选，如果你想提交这些可以删掉）
+.vscode/
+.idea/
+*.user
